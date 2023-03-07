@@ -1,0 +1,15 @@
+if pir is high nothing happens except LPG leakage(when there is someone)
+  if pir is low then(when there is no one)
+	turn on the other programs
+		get a command from the user if it froth making dish 
+			if so then turn on the ultrasonic program
+				if the value of distance of froth from the sensor decreses to 2 cm then turn the gas level to medium flame and when the distace reduces to the original value turn the gas on full flame do 				this 2 times and then turn the gas off(Servo rotation to the -90 to make it sim and 90 to turn it off)
+		if it is not a froth making dish don't turn on the ultrasonic sensor
+
+
+LPG leakage detected: turn on the buzzer and exhaust fan
+Timer : make a timer which would turn the flame off when it reaches the time period
+
+	
+		
+		
